@@ -4,7 +4,9 @@ module.exports = {
   moduleFileExtensions: ['js', 'ts', 'vue'],
   transform: {
     '^.+\\.vue$': '@vue/vue3-jest',
-    '^.+\\.ts$': 'ts-jest'
+    '^.+\\.ts$': ['ts-jest', {
+      tsconfig: 'tsconfig.test.json'
+    }]
   },
   testMatch: [
     '**/tests/**/*.test.(js|ts)',
