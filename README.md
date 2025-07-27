@@ -64,7 +64,7 @@ graph TD
   classDef lint    fill:#f3e8ff,stroke:#9333ea
   classDef pkg     fill:#fef3c7,stroke:#ca8a04
 ---
-
+```
 ## 📁 项目结构与工程化说明
 
 ```
