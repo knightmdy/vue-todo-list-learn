@@ -43,7 +43,8 @@
 
 > 本项目把「实习阶段必学」的工程化能力浓缩为一张图 + 一张表，让你一眼看懂技术栈所处的层级。
 
-### 📊 全景图（Mermaid）
+## 🏗 前端工程化全景
+
 ```mermaid
 %% 前端工程化金字塔
 graph TD
@@ -52,18 +53,17 @@ graph TD
   C --> D[规范层 Lint]
   D --> E[依赖层 Package]
 
-  A:::release
-  B:::test
-  C:::build
-  D:::lint
-  E:::pkg
-
   classDef release fill:#ffedd5,stroke:#f97316
   classDef test    fill:#dbeafe,stroke:#3b82f6
   classDef build   fill:#dcfce7,stroke:#16a34a
   classDef lint    fill:#f3e8ff,stroke:#9333ea
   classDef pkg     fill:#fef3c7,stroke:#ca8a04
----
+
+  class A release
+  class B test
+  class C build
+  class D lint
+  class E pkg
 ```
 ## 📁 项目结构与工程化说明
 
