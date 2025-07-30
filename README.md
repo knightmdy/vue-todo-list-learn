@@ -9,7 +9,7 @@
 
 一个基于Vue 3 + TypeScript的现代化待办事项管理应用，展示了现代前端开发的最佳实践。
 
-[在线演示](https://knightmdy.github.io/vue-todo-list-learn/) · [报告问题](https://github.com/knightmdy/vue-todo-list-learn/issues) · [功能请求](https://github.com/knightmdy/vue-todo-list-learn/issues)
+[在线演示](https://knightmdy.github.io/Vue3-TypeScript-Engineering-Practice/) · [报告问题](https://github.com/knightmdy/Vue3-TypeScript-Engineering-Practice/issues) · [功能请求](https://github.com/knightmdy/Vue3-TypeScript-Engineering-Practice/issues)
 
 </div>
 
@@ -58,7 +58,7 @@
 ## 📁 项目结构与工程化说明
 
 ```
-vue-todo-list-learn/
+Vue3-TypeScript-Engineering-Practice/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml    # GitHub Actions 自动化部署配置
@@ -149,14 +149,14 @@ pnpm run build:prod
 1. **触发条件**：推送到 `main` 分支
 2. **构建环境**：Node.js 18 + pnpm 8
 3. **部署目标**：GitHub Pages
-4. **访问地址**：https://knightmdy.github.io/vue-todo-list-learn/
+4. **访问地址**：https://knightmdy.github.io/Vue3-TypeScript-Engineering-Practice/
 
 ### 部署配置要点
 
 ```typescript
 // vite.config.ts - GitHub Pages 部署配置
 export default defineConfig({
-  base: '/vue-todo-list-learn/', // 仓库名作为 base 路径
+  base: '/Vue3-TypeScript-Engineering-Practice/', // 仓库名作为 base 路径
   // ...其他配置
 })
 ```
@@ -217,7 +217,7 @@ pnpm run deploy
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/knightmdy/vue-todo-list-learn.git
+git clone https://github.com/knightmdy/Vue3-TypeScript-Engineering-Practice.git
 cd vue-todo-list-learn
 ```
 
@@ -334,8 +334,8 @@ pnpm run dev
 ## 📞 联系方式
 
 - GitHub: [@knightmdy](https://github.com/knightmdy)
-- 项目地址: [vue-todo-list-learn](https://github.com/knightmdy/vue-todo-list-learn)
-- 在线演示: [Live Demo](https://knightmdy.github.io/vue-todo-list-learn/)
+- 项目地址: [Vue3-TypeScript-Engineering-Practice](https://github.com/knightmdy/Vue3-TypeScript-Engineering-Practice)
+- 在线演示: [Live Demo](https://knightmdy.github.io/Vue3-TypeScript-Engineering-Practice/)
 
 ---
 
