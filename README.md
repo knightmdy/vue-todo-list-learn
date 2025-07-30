@@ -218,7 +218,7 @@ pnpm run deploy
 
 ```bash
 git clone https://github.com/knightmdy/Vue3-TypeScript-Engineering-Practice.git
-cd vue-todo-list-learn
+cd Vue3-TypeScript-Engineering-Practice
 ```
 
 ### 2. 安装依赖
